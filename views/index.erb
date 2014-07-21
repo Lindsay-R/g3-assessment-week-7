@@ -2,3 +2,13 @@
 
 <p>We show totally accurate lists of continents and countries!!</p>
 
+<form action="/message" method="post">
+  <label for="name">name</label>
+  <input type="text" name="name" id="name">
+  <br>
+  <label for="message">message</label>
+  <input type="message" name="message" id="message" >
+  <button id ="add_message"  type="submit">Add Message</button>
+</form>
+<% show_message = @message_table.find_by(params[:name], params[:message])%>
+<%= show_message %>

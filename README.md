@@ -2,11 +2,11 @@
 
 ## Setup
 
-1. Fork and clone this repository
-1. Create a new Pivotal Tracker project in the gSchool account. Add instructors as owners.
-1. `bundle install`
-1. `cp config/database.yml.example config/database.yml`
-1. `rake db:create` to create your test and development databases
+1. Fork and clone this repository X
+1. Create a new Pivotal Tracker project in the gSchool account. Add instructors as owners. X
+1. `bundle install`  X
+1. `cp config/database.yml.example config/database.yml`  X
+1. `rake db:create` to create your test and development databases  X
 1. Complete each story in Tracker
 
 ## Migrations
